@@ -1,0 +1,18 @@
+.ui.center.aligned.header {
+  margin-top: 2rem;
+  font-family: inherit;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.ui.horizontal.divider {
+  margin: 2rem;
+  margin-bottom: 2.5rem;
+
+  .diamond.icon,
+  .comment.outline.icon,
+  .edit.icon {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+}

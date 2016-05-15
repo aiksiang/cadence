@@ -1,0 +1,28 @@
+.collection-page {
+  .ui.cards > .card {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    .blurring.dimmable > .dimmer {
+      background-color: $transparent-pink;
+    }
+    .blurring.dimmed.dimmable > :not(.dimmer) {
+      filter: blur(3px);
+    }
+    .hover-image {
+      font-size: 2rem;
+      cursor: pointer;
+      user-select: none;
+    }
+    .image {
+      border-radius: 0 !important;
+    }
+    .product-images {
+      width: auto;
+      max-height: 100%;
+      max-width: 100%;
+      margin: auto;
+      display: table;
+    }
+  }
+}

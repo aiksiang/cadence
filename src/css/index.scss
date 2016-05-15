@@ -1,0 +1,17 @@
+@import 'colors';
+@import 'header';
+@import 'home';
+@import 'collection';
+@import 'payment';
+@import 'contact';
+@import 'divider';
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: inherit;
+  font-family: 'Alex Brush', cursive !important;
+}

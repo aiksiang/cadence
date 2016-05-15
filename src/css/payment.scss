@@ -1,0 +1,69 @@
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="url"] {
+  font-family: inherit;
+}
+
+#payment-container {
+  margin: 0 auto;
+  font-size: 4em;
+  padding-bottom: 3em;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  font-family: cursive;
+
+  .order-details {
+    margin: 2vw;
+    text-align: center;
+  }
+
+  .ui.form {
+    font-size: 1.2rem;
+
+    .menu > .item {
+      font-size: 1.2rem;
+    }
+
+    .field label {
+      font-size: 1.5rem;
+    }
+
+    .last-row {
+      position: relative;
+
+      .ui.checkbox {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        ::before,
+        ::after {
+          height: 22px;
+          width: 22px;
+          top: 50%;
+          transform: translateY(-50%);
+          line-height: 22px;
+        }
+
+        label {
+          padding-left: 1.5em;
+        }
+      }
+
+      .ui.submit.button {
+        font-family: 'Alex Brush', cursive !important;
+        font-size: 1.5rem;
+        padding: 0.9rem 1.1rem;
+        float: right;
+      }
+    }
+  }
+}

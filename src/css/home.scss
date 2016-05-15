@@ -1,0 +1,25 @@
+@import 'colors';
+
+.screenwide-container {
+  width: 100%;
+  height: 32vw;
+  overflow-y: hidden;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .screenwide-img {
+    width: 100%;
+  }
+
+  .screenwide-name {
+    position: absolute;
+    bottom: 0;
+    font-size: 3vw;
+    color: $white;
+    padding: 1vw;
+    user-select: none;
+    cursor: default;
+  }
+}

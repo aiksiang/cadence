@@ -1,0 +1,53 @@
+@import 'colors';
+
+#header {
+  .ui.menu {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+
+    .item {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    .item:before {
+      background: none;
+    }
+  }
+
+  #brand-logo {
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: $pink;
+    margin: 0 2rem;
+    padding: 1rem 0;
+    user-select: none;
+    cursor: default;
+    white-space: nowrap;
+  }
+
+  .navbar {
+    .item {
+      .nav-option {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1.7rem;
+
+        color: $grey;
+        position: relative;
+        top: 0;
+        transition: top 0.2s ease, color 0.2s ease;
+
+        &:hover {
+          top: -0.25rem;
+          color: $pink;
+        }
+      }
+    }
+  }
+}
