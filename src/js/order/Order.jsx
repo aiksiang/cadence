@@ -33,10 +33,6 @@ export default class Payment extends Component {
     })
   }
 
-  onRegisteredMailCheck(e) {
-    console.log(e.target.value);
-  }
-
   render() {
     return (
       <div className="ui container">

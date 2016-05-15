@@ -18,11 +18,15 @@
       border-radius: 0 !important;
     }
     .product-images {
-      width: auto;
       max-height: 100%;
       max-width: 100%;
+      height: 250px;
+      width: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       margin: auto;
-      display: table;
+      display: block;
     }
   }
 }
