@@ -38,6 +38,8 @@ export default class Payment extends Component {
       <div className="ui container">
         <Divider
           name="Order"
+          description="Includes Free solid velvet jewelry box and normal shipping. For registered shipping(highly recommended), please top-up S$2.30."
+          disclaimer="Full payment before order. No backing out or refund after order and goods are non-exchangable. We will not be responsible for mail that is lost during normal shipping."
           icon="edit"/>
         <div id="payment-container">
           <div className="ui form">
@@ -65,7 +67,7 @@ export default class Payment extends Component {
               <div className="twelve wide field">
                 <div className="ui checkbox">
                   <input type="checkbox" tabIndex="0" className="hidden" defaultChecked={true}/>
-                  <label>Registered Mail</label>
+                  <label>Registered Mail(+S$2.30)</label>
                 </div>
               </div>
               <div className="four wide field">

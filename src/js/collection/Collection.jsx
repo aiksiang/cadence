@@ -36,6 +36,7 @@ export default class Collection extends Component {
         <Divider
           name="Collection"
           description="Our new collection features a minimalistic design and an elegant touch of rose gold, suitable for all occasions whether it's a casual day out, a hard day at work or a hot dinner date!"
+          disclaimer="All pictures are taken in-house, with a panasonic dmc-gx1 with lumix g vario 14-42/f3.5-5.6 lens, and strictly no photoshop was used in the process."
           icon="diamond"/>
         <div className="ui three stackable special cards">
           {this.getCollection()}

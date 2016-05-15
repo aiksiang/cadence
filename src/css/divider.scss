@@ -25,4 +25,8 @@
   font-size: 1.5rem;
   letter-spacing: 2.2px;
   transform: scaleY(1.3);
+  padding: 1em 0;
+  &.disclaimer {
+    font-size: 0.9em;
+  }
 }
