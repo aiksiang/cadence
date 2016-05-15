@@ -15,3 +15,10 @@ body,
   line-height: inherit;
   font-family: 'Alex Brush', cursive !important;
 }
+
+::selection {
+  background: $very-transparent-pink; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $very-transparent-pink; /* Gecko Browsers */
+}
