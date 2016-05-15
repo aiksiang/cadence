@@ -2,14 +2,14 @@
 
 import React, {Component} from 'react';
 
-import ScreenwideImage from './ScreenwideImage';
+import ScreenwideCarousel from './ScreenwideCarousel';
 import jewelry from '../../config/jewelry';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <ScreenwideImage jewelry={jewelry[0]}/>
+        <ScreenwideCarousel/>
       </div>
     );
   }

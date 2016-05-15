@@ -4,6 +4,8 @@ import React, {Component} from 'react';
 import jewelry from '../../config/jewelry';
 import Divider from '../Divider';
 
+const NO_OF_IMAGES = 24
+
 export default class Collection extends Component {
   componentDidMount() {
     $('.special.cards .image').dimmer({ on: 'hover' });
@@ -11,7 +13,7 @@ export default class Collection extends Component {
 
   getCollection() {
     let collection = [];
-    for (let i = 1; i <= 24; i++) {
+    for (let i = 1; i <= NO_OF_IMAGES; i++) {
       let image = require(`../../img/collection/picture_${i}.jpg`);
       collection.push(
         <div key={i} className="card">
@@ -54,6 +56,7 @@ export default class Collection extends Component {
       <div className="ui container collection-page">
         <Divider
           name="Collection"
+          description="Our new collection features a minimalistic design and an elegant touch of rose gold, suitable for all occasions whether it's a casual day out, a hard day at work or a hot dinner date!"
           icon="diamond"/>
         <div className="ui three stackable special cards">
           {this.getCollection()}
