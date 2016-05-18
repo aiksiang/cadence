@@ -26,7 +26,8 @@
 
 .carousel-inner .item .carousel-image {
   margin: auto;
-  height: 33vw;
+  min-height: 500px;
+  height: 40vw;
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;

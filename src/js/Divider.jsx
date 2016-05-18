@@ -21,9 +21,12 @@ export default class Divider extends Component {
           </div>
           :null
         }
-        <div className="ui horizontal divider">
-          <i className={`${this.props.icon} icon`}></i>
-        </div>
+        {this.props.icon ?
+          <div className="ui horizontal divider">
+            <i className={`${this.props.icon} icon`}></i>
+          </div>
+          :null
+        }
       </div>
     );
   }

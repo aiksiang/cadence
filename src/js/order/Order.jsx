@@ -35,7 +35,7 @@ export default class Payment extends Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div className="ui container order">
         <Divider
           name="Order"
           description="Includes Free solid velvet jewelry box and normal shipping. For registered shipping(highly recommended), please top-up S$2.30."

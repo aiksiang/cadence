@@ -1,3 +1,15 @@
+.order {
+  .divider.centered {
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+    letter-spacing: 1px;
+    transform: none;
+    &.disclaimer {
+      font-size: 1.5em;
+    }
+  }
+}
+
 .ui.form input:not([type]),
 .ui.form input[type="date"],
 .ui.form input[type="datetime-local"],
@@ -10,15 +22,25 @@
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
   font-family: inherit;
+  line-height: inherit;
+  font-size: 1.6em;
+  padding: 0.11em 0.9em 0.21em 0.9em
+}
+
+.ui.selection.dropdown {
+  min-height: 2.2em;
+  font-family: inherit;
+  padding: 0.6em 2.6em 0.5em 1em;
 }
 
 #payment-container {
   margin: 0 auto;
-  font-size: 4em;
+  font-size: 10rem;
   padding-bottom: 3em;
   padding-left: 12vw;
   padding-right: 12vw;
-  font-family: cursive;
+  font-family: 'Tangerine', cursive;
+  letter-spacing: 1px;
 
   .order-details {
     margin: 2vw;
@@ -26,14 +48,14 @@
   }
 
   .ui.form {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 
     .menu > .item {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
     }
 
     .field label {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
     .last-row {
